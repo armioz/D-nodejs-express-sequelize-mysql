@@ -2,8 +2,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const passport = require("passport");
-const userController = require("./controllers/user");
-const roleController = require("./controllers/role");
+const userController = require("./Controllers/user");
+const roleController = require("./Controllers/role");
 const app = express();
 require("./config/passport");
 var corsOptions = {
