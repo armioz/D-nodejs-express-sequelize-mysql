@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "1234",
-    "database": "hospital",
-    "host": "127.0.0.1",
+    "username": "nuxtadmin",
+    "password": "12345678",
+    "database": "nuxtexpress",
+    "host": "db4free.net",
     "port": "3306",
     "dialect": "mysql",
     "pool": {
@@ -15,17 +15,17 @@
     "logging": false
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "username": "nuxtadmin",
+    "password": "12345678",
+    "database": "nuxtexpress",
+    "host": "db4free.net",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "nuxtadmin",
+    "password": "12345678",
+    "database": "nuxtexpress",
+    "host": "db4free.net",
     "dialect": "mysql"
   }
 }
