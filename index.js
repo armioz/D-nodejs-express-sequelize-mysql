@@ -9,8 +9,8 @@ require("./config/passport");
 var corsOptions = {
   origin: "nuxtapp-login.herokuapp.com",
 };
-
-app.use(cors(corsOptions));
+//corsOptions
+app.use(cors());
 
 // parse requests of content-type - application/json
 app.use(bodyParser.json());
