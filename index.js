@@ -7,7 +7,7 @@ const roleController = require("./Controllers/role");
 const app = express();
 require("./config/passport");
 var corsOptions = {
-  origin: "https://nuxtapp-login.herokuapp.com/",
+  origin: "nuxtapp-login.herokuapp.com",
 };
 
 app.use(cors(corsOptions));
