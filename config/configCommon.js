@@ -1,5 +1,5 @@
 exports.server = {
-  host: process.env.HOST || "https://express-nuxt.herokuapp.com/",
+  host: process.env.HOST || "https://nuxtapp-login.herokuapp.com/",
   port: process.env.PORT || "3000",
 };
 
